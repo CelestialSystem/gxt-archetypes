@@ -12,8 +12,8 @@
     <selenium.skip>false</selenium.skip>
     <gwt.test.testTimeOut>480</gwt.test.testTimeOut>
 
-    <gwt.version>2.7.0</gwt.version>
-    <gxt.version>3.0.1</gxt.version>
+    <gwt.version>2.11.0</gwt.version>
+    <gxt.version>4.2.0</gxt.version>
 
     <gwt.driver.version>0.0.1-SNAPSHOT</gwt.driver.version>
     <gxt.driver.version>0.0.1-SNAPSHOT</gxt.driver.version>
