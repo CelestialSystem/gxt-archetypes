@@ -56,7 +56,7 @@
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>exec-maven-plugin</artifactId>
-        <version>1.4.0</version>
+        <version>3.3.0</version>
         <executions>
           <!-- If you see an error in eclipse on this next line "An exception occurred while executing the Java class. null", 
             this indicates that there was a problem generating Neptune from the config file. Run from the command line to get the full 
@@ -184,7 +184,7 @@
                   <pluginExecutionFilter>
                     <groupId>org.codehaus.mojo</groupId>
                     <artifactId>exec-maven-plugin</artifactId>
-                    <versionRange>[1.0.0,)</versionRange>
+                    <versionRange>[3.3.0,)</versionRange>
                     <goals>
                       <goal>java</goal>
                     </goals>
