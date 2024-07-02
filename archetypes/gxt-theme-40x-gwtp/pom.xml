@@ -22,7 +22,7 @@
     
     <!-- GWTP -->
     <gin.version>2.1.2</gin.version>
-    <gwtp.version>1.5.3</gwtp.version>
+    <gwtp.version>1.6</gwtp.version>
 
     <!-- Maven -->
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
