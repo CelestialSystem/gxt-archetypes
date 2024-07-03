@@ -4,7 +4,7 @@
 
   <groupId>com.sencha.gxt.archetypes</groupId>
   <artifactId>gxt-basic-support-4x-archetype</artifactId>
-  <version>1.0.3-SNAPSHOT</version>
+  <version>1.0.4-SNAPSHOT</version>
   <packaging>maven-archetype</packaging>
 
   <name>gxt-basic-support-4x-archetype</name>
