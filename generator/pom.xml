@@ -50,9 +50,9 @@
   </repositories>
 
   <dependencies>
-    <!-- https://github.com/branflake2267/archetypes -->
+    <!-- https://github.com/4.2.0/archetypes -->
     <dependency>
-      <groupId>com.github.branflake2267.archetypes</groupId>
+      <groupId>com.github.4.2.0.archetypes</groupId>
       <artifactId>archetype-generator</artifactId>
       <version>1.0.1-SNAPSHOT</version>
     </dependency>
