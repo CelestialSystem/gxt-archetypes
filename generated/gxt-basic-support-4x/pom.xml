@@ -136,11 +136,11 @@
       <distributionManagement>
         <snapshotRepository>
           <id>sonatype-nexus-snapshots</id>
-          <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+          <url>https://sencha.myget.org/F/maven/auth/b40e1981-b259-4971-8e0b-44a26f7f77d1/maven/</url>
         </snapshotRepository>
         <repository>
           <id>sonatype-nexus-staging</id>
-          <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+          <url>https://sencha.myget.org/F/maven/auth/b40e1981-b259-4971-8e0b-44a26f7f77d1/maven/</url>
         </repository>
       </distributionManagement>
 

@@ -12,10 +12,10 @@
 
   <properties>
     <!-- GXT -->
-    <gxt.version>4.0.3</gxt.version>
+    <gxt.version>4.2.0</gxt.version>
 
     <!-- GWT -->
-    <gwt.version>2.8.2</gwt.version>
+    <gwt.version>2.11.0</gwt.version>
     <gwt.maven.version>2.8.2</gwt.maven.version>
     <gwt.style>OBF</gwt.style>
 
@@ -156,7 +156,7 @@
     <repository>
       <id>archetype</id>
       <name>Sencha GXT Archetypes</name>
-      <url>https://maven.sencha.com/repo/gxt-gpl-release/</url>
+      <url>https://sencha.myget.org/F/maven/auth/b40e1981-b259-4971-8e0b-44a26f7f77d1/maven/</url>
     </repository>
   </repositories>
 
