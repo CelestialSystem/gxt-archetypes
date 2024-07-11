@@ -88,7 +88,7 @@
 
       <!-- Commercial (with Support) -->
       <!-- <url>https://maven.sencha.com/repo/gxt-commercial-release</url> -->
-      <url>http://maven.sencha.com/repo/repo/gxt-support-commercial-release/</url>
+      <url>https://sencha.myget.org/F/maven/b40e1981-b259-4971-8e0b-44a26f7f77d1/maven/gxt-support-commercial-release/</url>
       <!-- <url>https://maven.sencha.com/repo/gxt-commercial-snapshot</url> -->
 
       <!-- GPL -->
@@ -110,7 +110,7 @@
 
       <!-- Commercial (with Support) -->
       <!-- <url>https://maven.sencha.com/repo/gxt-commercial-release</url> -->
-      <!-- <url>http://maven.sencha.com/repo/repo/gxt-support-commercial-release/</url> -->
+      <!-- <url>https://sencha.myget.org/F/maven/b40e1981-b259-4971-8e0b-44a26f7f77d1/maven/gxt-support-commercial-release/</url> -->
       <url>https://maven.sencha.com/repo/gxt-commercial-snapshot</url>
 
       <!-- GPL -->
