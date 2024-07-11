@@ -39,7 +39,7 @@
   <repositories>
     <repository>
       <id>snapshots-repo</id>
-      <url>https://sencha.myget.org/F/maven/b40e1981-b259-4971-8e0b-44a26f7f77d1/maven/gxt-support-commercial-release/</url>
+      <url>https://sencha.myget.org/F/maven/b40e1981-b259-4971-8e0b-44a26f7f77d1/maven/gxt-support-commercial-snapshot/</url>
       <releases>
         <enabled>true</enabled>
       </releases>
@@ -50,9 +50,9 @@
   </repositories>
 
   <dependencies>
-    <!-- https://github.com/branflake2267/archetypes -->
+    <!-- mvn  -->
     <dependency>
-      <groupId>com.github.branflake2267.archetypes</groupId>
+      <groupId>com.sencha.archetypes</groupId>
       <artifactId>archetype-generator</artifactId>
       <version>1.0.1-SNAPSHOT</version>
     </dependency>
