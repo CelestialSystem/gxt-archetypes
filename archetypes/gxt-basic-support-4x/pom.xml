@@ -5,7 +5,7 @@
 
   <groupId>com.sencha.gxt.archetypes</groupId>
   <artifactId>gxt-basic-support-4x</artifactId>
-  <packaging>war</packaging>
+  <packaging>pom</packaging>
   <version>1.0.3-SNAPSHOT</version>
   <name>gxt-basic-support-4x</name>
   <description>Very basic GXT maven setup</description>
@@ -13,11 +13,11 @@
 
   <properties>
     <!-- GXT -->
-    <gxt.version>4.0.3</gxt.version>
+    <gxt.version>4.2.0</gxt.version>
 
     <!-- GWT -->
-    <gwt.version>2.8.2</gwt.version>
-    <gwt.maven.version>2.8.2</gwt.maven.version>
+    <gwt.version>2.10.0</gwt.version>
+    <gwt.maven.version>2.10.0</gwt.maven.version>
     <gwt.style>OBF</gwt.style>
 
     <!-- Maven -->
@@ -144,7 +144,8 @@
 
       <!-- Commercial (with Support) -->
       <!-- <url>https://maven.sencha.com/repo/gxt-commercial-release</url> -->
-      <url>https://maven.sencha.com/repo/gxt-support-commercial-release</url>
+<!--      <url>https://maven.sencha.com/repo/gxt-support-commercial-release</url>-->
+      <url>https://sencha.myget.org/F/gxt-sandbox/maven/</url>
       <!-- <url>https://maven.sencha.com/repo/gxt-commercial-snapshot</url> -->
 
       <!-- GPL -->
@@ -186,7 +187,7 @@
     <dependency>
       <groupId>com.sencha.gxt</groupId>
       <artifactId>gxt-chart</artifactId>
-      <version>${gxt.version}</version>
+      <version>4.2.0-SNAPSHOT</version>
       <scope>provided</scope>
     </dependency>
     <!-- Neptune Theme -->
