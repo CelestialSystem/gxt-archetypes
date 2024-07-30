@@ -25,7 +25,7 @@ public class FileRegex extends DirectoryWalker<File> {
     try {
       walk(startDirectory, results);
     } catch (IOException e) {
-      e.printStackTrace()
+      e.printStackTrace();
     }
     return results;
   }

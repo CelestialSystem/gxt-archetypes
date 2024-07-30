@@ -76,8 +76,8 @@
         <version>3.5.1</version>
         <configuration>
           <fork>true</fork>
-          <source>1.8</source>
-          <target>1.8</target>
+          <source>11</source>
+          <target>11</target>
         </configuration>
       </plugin>
 
@@ -187,7 +187,7 @@
     <dependency>
       <groupId>com.sencha.gxt</groupId>
       <artifactId>gxt-chart</artifactId>
-      <version>4.2.0-SNAPSHOT</version>
+      <version>4.2.0</version>
       <scope>provided</scope>
     </dependency>
     <!-- Neptune Theme -->

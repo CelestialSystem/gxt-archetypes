@@ -38,7 +38,7 @@ public class RegexRenameFiles extends DirectoryWalker<File> {
       String newFilePath = oldFile.getAbsolutePath().replace(oldFile.getName(), "") + newName;
       File newFile = new File(newFilePath);
       try {
-        FileUtils.moveFile(oldFile, newFile);
+        org.apache.commons.io.FileUtils.moveFile(oldFile, newFile);
       } catch (IOException e) {
         e.printStackTrace();
       }
