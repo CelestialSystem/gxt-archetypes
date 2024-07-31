@@ -13,11 +13,11 @@
 
   <properties>
     <!-- GXT -->
-    <gxt.version>4.0.2</gxt.version>
+    <gxt.version>4.2.0</gxt.version>
 
     <!-- GWT -->
-    <gwt.version>2.8.0</gwt.version>
-    <gwt.maven.version>2.8.0</gwt.maven.version>
+    <gwt.version>2.9.0</gwt.version>
+    <gwt.maven.version>2.9.0</gwt.maven.version>
     <gwt.style>OBF</gwt.style>
 
     <!-- Maven -->
@@ -72,8 +72,8 @@
         <version>3.5.1</version>
         <configuration>
           <fork>true</fork>
-          <source>1.8</source>
-          <target>1.8</target>
+          <source>11</source>
+          <target>11</target>
         </configuration>
       </plugin>
     </plugins>
@@ -88,7 +88,8 @@
 
       <!-- Commercial (with Support) -->
       <!-- <url>https://maven.sencha.com/repo/gxt-commercial-release</url> -->
-      <url>https://maven.sencha.com/repo/gxt-support-commercial-release</url>
+      <!--<url>https://maven.sencha.com/repo/gxt-support-commercial-release</url> replaced with myget repo.. -->
+      <url>https://sencha.myget.org/F/gxt-sandbox2/maven/</url>
       <!-- <url>https://maven.sencha.com/repo/gxt-commercial-snapshot</url> -->
 
       <!-- GPL -->
@@ -111,7 +112,8 @@
       <!-- Commercial (with Support) -->
       <!-- <url>https://maven.sencha.com/repo/gxt-commercial-release</url> -->
       <!-- <url>https://maven.sencha.com/repo/gxt-support-commercial-release</url> -->
-      <url>https://maven.sencha.com/repo/gxt-commercial-snapshot</url>
+      <!--<url>https://maven.sencha.com/repo/gxt-commercial-snapshot</url> replaced with myget repo.. -->
+      <url>https://sencha.myget.org/F/gxt-sandbox2/maven/</url>
 
       <!-- GPL -->
       <!-- <url>https://maven.sencha.com/repo/gxt-gpl-release</url> -->
